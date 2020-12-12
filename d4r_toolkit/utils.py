@@ -48,6 +48,15 @@ def fromunix2yyyymmddhh(x):
     tim = dat.strftime('%Y-%m-%d %H') ### date --> string
     return tim
 
+def fromunix2yyyymmddhhmmss(x):
+    ct = pytz.timezone("America/Mexico_City")
+    ### errors 
+    if (int(x)<86400) or (int(x)>1609518354):
+        x = 86400
+    dat = dt.fromtimestamp(int(x), ct)
+    tim = dat.strftime('%Y-%m-%d %H:%M:%S') ### date --> string
+    return tim
+
 def count_filenum(root):
     c=0
     for file in os.listdir(root):
