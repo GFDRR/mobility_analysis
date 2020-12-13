@@ -34,7 +34,7 @@ ddf_sample = ddf.sample(frac=0.0001).compute()
 viz.visualize_simpleplot(ddf_sample)
 ```
 
-<img src="docs/sample_plot.png" width="900">
+<img src="docs/sample_plot.png" width="700">
 
 ## Acknowledgements
 The library was developed under a grant from the Spanish Fund for Latin America and the Caribbean (SFLAC) under the Disruptive Technologies for Development (DT4D) initiative at the World Bank. Thanks to Cuebiq Inc, Purdue University and Mind Earth for their collaboration.
