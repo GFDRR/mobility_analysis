@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mobility data analysis in Python
 
 mobility4resilience is an analysis for disaster risk management applications of smartphone location data. It provides functions for:
@@ -14,3 +15,8 @@ The library uses the scientific Python stack (numpy, Pandas) and relies on Dask 
 
 ## Usage examples
 Add some basic examples here.
+=======
+# mobility4resilience
+
+Python codes for analyzing mobility data for disaster resilience and urban planning applications
+>>>>>>> master
