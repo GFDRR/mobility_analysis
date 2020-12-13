@@ -9,7 +9,7 @@ mobility4resilience is a library for disaster risk management applications of sm
 ## Background
 This library responds to the need for policy insights for preparedness and response to natural disasters, as well as the growing availability of large GPS datasets depicting human movements before, during and after such events.
 
-![drm-cycle](docs/drm_cycle.png)
+![drm-cycle](docs/drm_cycle.png | width=120)
 
 ## Requirements
 * **Dependencies.** The library uses the scientific Python stack (numpy, Pandas, Geopandas) and relies on Dask for distributed processing of large datasets.
@@ -34,7 +34,7 @@ ddf_sample = ddf.sample(frac=0.0001).compute()
 viz.visualize_simpleplot(ddf_sample)
 ```
 
-![sample_plot](docs/sample_plot.png)
+![sample_plot](docs/sample_plot.png | width = 400)
 
 ## Acknowledgements
 The library was developed under a grant from the Spanish Fund for Latin America and the Caribbean (SFLAC) under the Disruptive Technologies for Development (DT4D) initiative at the World Bank. Thanks to Cuebiq Inc, Purdue University and Mind Earth for their collaboration.
