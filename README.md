@@ -27,14 +27,14 @@ ddf = data_preprocess.loaddata(filepath, ",", colnames, "")
 ddf.head(2)
 ```
 
-<img src="ddf.png" height="200">
+<img src="docs/ddf.png" height="200">
 
 ```python
 ddf_sample = ddf.sample(frac=0.0001).compute()
 viz.visualize_simpleplot(ddf_sample)
 ```
 
-<img src="sample_plot.png">
+<img src="docs/sample_plot.png">
 
 ## Acknowledgements
 The library was developed under a grant from the Spanish Fund for Latin America and the Caribbean (SFLAC) under the Disruptive Technologies for Development (DT4D) initiative at the World Bank. Thanks to Cuebiq Inc, Purdue University and Mind Earth for their collaboration.
