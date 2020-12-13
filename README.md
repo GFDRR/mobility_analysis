@@ -19,8 +19,3 @@ Add some basic examples here.
 ## Acknowledgements
 
 The library was developed under a grant from the Spanish Fund for Latin America and the Caribbean (SFLAC) under the Disruptive Technologies for Development (DT4D) initiative at the World Bank. Thanks to Cuebiq Inc, Purdue University and Mind Earth for their collaboration.
-
-=======
-# mobility4resilience
-
-Python code for analyzing mobility data for disaster resilience and urban planning applications
