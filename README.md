@@ -7,7 +7,7 @@ mobility4resilience is a library for disaster risk management applications of sm
 * analysis of population displacement and recovery rates.
 
 ## Background
-This library responds to the need for policy insights for preparedness and response to natural disasters, as well as the growing availability of large GPS datasets depicting human movements before, during and after such events. It provides functions to create policy insights relevant for different stages of the disater risk management cycle: from assessing baseline mobility patterns to inform urban planning, to estimating population displacement and return.
+This library responds to the need for policy insights for preparedness and response to natural disasters, as well as the growing availability of large GPS datasets depicting human movements before, during, and after such events. It provides functions to create policy insights relevant for different stages of the disater risk management cycle: from assessing baseline mobility patterns to inform urban planning, to estimating population displacement and return.
 
 <img src="docs/drm_cycle.png" width="300">
 
