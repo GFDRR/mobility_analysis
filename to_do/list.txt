@@ -1,9 +1,0 @@
-give_snoozy_kisses
-make lunch
-eat_biscuits
-make_tea
-eat_biscuits
-get rid of ants
-make_tea
-change_diaper
-take_nap
