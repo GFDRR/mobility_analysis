@@ -7,7 +7,7 @@ mobility4resilience is a library for disaster risk management applications of sm
 * analysis of population displacement and recovery rates.
 
 ## Background
-This library responds to the need for policy insights for preparedness and response to natural disasters, as well as the growing availability of large GPS datasets depicting human movements before, during, and after such events. It provides functions to create policy insights relevant for different stages of the disater risk management cycle: from assessing baseline mobility patterns to inform urban planning, to estimating population displacement and return.
+This library responds to the need for policy insights for preparedness and response to natural disasters, leveraging the growing availability of large GPS datasets depicting human movements before, during, and after such events. It provides functions to create data-informed policy insights relevant for different stages of the disater risk management cycle: from estimating population displacement and return, to long-term disaster resilience planning premised on mobility patterns.
 
 <img src="docs/drm_cycle.png" width="300">
 
@@ -27,7 +27,7 @@ ddf = data_preprocess.loaddata(filepath, ",", colnames, "")
 ddf.head(2)
 ```
 
-<img src="docs/ddf.png" width="800">
+<!-- <img src="docs/ddf.png" width="800"> -->
 
 ```python
 ddf_sample = ddf.sample(frac=0.0001).compute()
